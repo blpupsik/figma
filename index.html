@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <title>figma</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <title>Basketball scoreboard</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
 
-<body>
-    <div class="dad">
-        <div class="text"><span>HOME</span> <span>GUEST</span></div>
-        <div class="matka">
-            <div class="son">
-                <div class="sonic">0</div>
-            </div>
-            <div class="son">
-                <div class="sonic">0</div>
-            </div>
-        </div>
-        <div class="papa">
-            <div class="don1">
-                <div class="von4">+1</div>
-                <div class="von5">+2</div>
-                <div class="von6">+3</div>
-            </div>
-            <div class="don2">
-                <div class="von1">+1</div>
-                <div class="von2">+2</div>
-                <div class="von3">+3</div>
-            </div>
-        </div>
-    </div>
-</body>
+  <body>
+    <main class="wrapper">
+      <div class="boards">
+        <div class="board">
+          <span class="board__title">home</span>
 
+          <span class="board__score">18</span>
+
+          <div class="board-actions">
+            <span class="board-actions__add">+1</span>
+
+            <span class="board-actions__add">+2</span>
+
+            <span class="board-actions__add">+3</span>
+          </div>
+        </div>
+
+        <div class="board">
+          <span class="board__title">guest</span>
+
+          <span class="board__score">12</span>
+
+          <div class="board-actions">
+            <span class="board-actions__add">+1</span>
+
+            <span class="board-actions__add">+2</span>
+
+            <span class="board-actions__add">+3</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
